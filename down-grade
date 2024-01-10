@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd
-rm -rf AUTORUN-CCMINER-X1.2
-git clone https://github.com/pichetx/AUTORUN-CCMINER-X
+rm -rf AUTORUN-CCMINER-GITHUB
+git clone https://github.com/Mr-Kamol/AUTORUN-CCMINER-X
 cd ../etc/mobile-mining/set-miner
 cp -r online.json offline.json /../root/AUTORUN-CCMINER-X/mobile-mining/set-miner
 cd
