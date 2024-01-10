@@ -1,5 +1,4 @@
-# ยังไม่พร้อมใช้งาน
-หากต้องการนำไปใช้ สามารถนำไปใช้แล้วแก้ไขต่อยอดเอาเองได้ครับ แต่กรุณาเช็คโค๊ดให้ดีก่อนนะครับ มี schedule auto update คือมันจะกลับมาเป็นเลขกระเป๋าเดิม ผมไม่รับผิดชอบใดๆ นะครับ
+
 # AUTO RUN CCMINER IN TERMUX
 
 * แตะจอค้าง เลือก more
@@ -26,7 +25,7 @@ proot-distro login ubuntu
 
 ## การติดตั้งตามขั้นตอน
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/pichetx/AUTORUN-CCMINER-X1.2 && cd AUTORUN-CCMINER-X1.2 && chmod +x setup.sh && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/Mr-Kamol/AUTORUN-CCMINER-GITHUB && cd AUTORUN-CCMINER-GITHUB && chmod +x setup.sh && sh setup.sh
 ```
 * หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกด้วยการ enter เลื่อนเคอร์เซอร์ขึ้นด้านบน ใส่คำสั่ง
 - ```run-miner```
